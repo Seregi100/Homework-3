@@ -18,13 +18,12 @@ public class PassengersCar extends Car {
         this.color = color;
     }
     
-    
     public void passengersNumber(int passenersNumber){
         System.out.println(passenersNumber);
     }
     
     @Override
     public String toString() {
-        return "Truck{" + "max speed= " + getMaxSpeed() + ", fuel consumption= " + getFuelConsumption() + ", car mileage= " + getCarMileage() + ", fuel capacity= " + getFuelCapasity() + ", price=" + price + ", color=" + color + '}';
+        return "Truck{" + "name= " + getName() + ", max speed= " + getMaxSpeed() + ", fuel consumption= " + getFuelConsumption() + ", car mileage= " + getCarMileage() + ", fuel capacity= " + getFuelCapasity() + ", price=" + price + ", color=" + color + '}';
     }
 }

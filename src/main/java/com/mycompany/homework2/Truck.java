@@ -25,6 +25,6 @@ public class Truck extends Car{
     
     @Override
     public String toString() {
-        return "Truck{" + "max speed= " + getMaxSpeed() + ", fuel consumption= " + getFuelConsumption() + ", car mileage= " + getCarMileage() + ", fuel capacity= " + getFuelCapasity() + ", price=" + price + ", color=" + color + '}';
+        return "Truck{" + "name= " + getName() + ", max speed= " + getMaxSpeed() + ", fuel consumption= " + getFuelConsumption() + ", car mileage= " + getCarMileage() + ", fuel capacity= " + getFuelCapasity() + ", price=" + price + ", color=" + color + '}';
     }
 }

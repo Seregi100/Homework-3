@@ -13,12 +13,21 @@ public class Car {
     private double fuelConsumption;
     private double carMileage;
     private int fuelCapasity;
+    private String name;
 
     public Car(int maxSpeed, double fuelConsumption, double carMileage, int fuelCapasity) {
         this.maxSpeed = maxSpeed;
         this.fuelConsumption = fuelConsumption;
         this.carMileage = carMileage;
         this.fuelCapasity = fuelCapasity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getMaxSpeed() {
